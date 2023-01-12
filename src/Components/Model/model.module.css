@@ -1,0 +1,24 @@
+.back {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: #00000090;
+    transition: .5s linear;
+    opacity: 0;
+}
+
+.overly {
+    width: 600px;
+    height: 500px;
+    background-color: #fff;
+    position: fixed;
+    border-radius: 20px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: .4s .2 ease;
+    z-index: -12; 
+
+}
